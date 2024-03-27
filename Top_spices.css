@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'montserrat';
+    color: aliceblue;
+
+}
+
+#top {
+    display: flex;
+    height: 30%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right,  rgb(255, 196, 0), rgb(250, 162, 0));
+}
+
+#top h4{
+    height: 100%;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
