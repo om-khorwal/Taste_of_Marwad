@@ -48,14 +48,14 @@ body {
 
 }
 
-#cursor {
+/* #cursor {
     height: 20px;
     width: 20px;
     background-color: #cc7d33;
     border-radius: 50%;
     position: fixed;
     z-index: 99;
-}
+} */
 
 #cursorblur {
     height: 400px;

@@ -1,8 +1,8 @@
 var crsr = document.querySelector("#cursor")
 var crsrb = document.querySelector("#cursorblur")
 document.addEventListener("mousemove", function(dets){
-    crsr.style.left = dets.x + "px";
-    crsr.style.top = dets.y + "px";
+    // crsr.style.left = dets.x + "px";
+    // crsr.style.top = dets.y + "px";
     crsrb.style.left = dets.x - 100+ "px";
     crsrb.style.top = dets.y -100 + "px";
 });
@@ -39,7 +39,7 @@ topspices.addEventListener("click" , ()=>{
 gsap.to("#nav", {
     backgroundColor:"#000",
     duration:0.5,
-    height:"110px",
+    height:"100px",
     scrollTrigger:{
         trigger:"#nav",
         scroller:"body",
