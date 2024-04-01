@@ -1,3 +1,8 @@
+var logo = document.getElementById('logo');
+logo.addEventListener("click" , ()=>{
+    window.location.href = "index.html"
+})
+
 gsap.to("#nav", {
     backgroundColor:"#000",
     duration:0.5,
