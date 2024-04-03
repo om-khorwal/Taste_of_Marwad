@@ -105,32 +105,92 @@ body {
 #r1{
     height: 40%;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.128);
+    /* background-color: rgba(255, 255, 255, 0.128); */
     align-items: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 1%;
     
 }
 #b1{
-    width: 20%;
+    width: auto;
     height: 80%;
-    display: flex;
     margin-left: 2%;
     background-color: yellow;
     background-image: url("");
-
+    position: relative;
+    border-radius: 2px;
+   
 }
+#b1 img{
+    height: 100%;
+    width: 100%;
+}
+#b2 h2{
+    background-color: #cc7d33;
+    font-size: 2rem;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    opacity: 0;
+    align-items: center;
+    justify-content: center;
+}
+#b1 h2:hover{
+    opacity: 1;
+    transition: all ease 0.5s;
+}
+
 #b2{
-    width: 20%;
+    width: auto;
     height: 80%;
     display: flex;
-    background-color: yellow;
+    position: relative;
 }
+#b2 img{
+    height: 100%;
+    width: 100%;
+    
+}#b1 h2{
+    background-color: #cc7d33;
+    font-size: 2rem;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    opacity: 0;
+    align-items: center;
+    justify-content: center;
+}
+#b2 h2:hover{
+    opacity: 1;
+    transition: all ease 0.5s;
+}
+
 #b3{
-    width: 20%;
+    width: auto;
     height: 80%;
     display: flex;
     margin-right    : 2%;
-    background-color: yellow;
+    position: relative;
+}
+#b3 img{
+    height: 100%;
+    width: 100%;
+    
+}#b3 h2{
+    background-color: #cc7d33;
+    font-size: 2rem;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    opacity: 0;
+    align-items: center;
+    justify-content: center;
+}
+#b3 h2:hover{
+    opacity: 1;
+    transition: all ease 0.5s;
 }

@@ -429,13 +429,13 @@ video {
     background: linear-gradient(to left bottom, #ed9441,#df7512);
 }
 #footer {
-    height: 40vh;
+    height: 35vh;
     width: 100%;
-    background: linear-gradient(to left bottom, #df720b 0% ,#9c652a 80%);
+    background: linear-gradient(to left bottom, #df720b 0% ,#341601 80%);
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-around;
     gap: 6.5vw;
     padding: 0 100px;
   }
@@ -461,7 +461,7 @@ video {
     font-size: 1.6vw;
     white-space: nowrap;
     text-transform: uppercase;
-    color: #000;
+    color: #fff;
     font-weight: 900;
     margin-bottom: 8px;
   }
@@ -470,7 +470,7 @@ video {
     font-size: 1.6vw;
     white-space: nowrap;
     text-transform: uppercase;
-    color: #000;
+    color: #fff;
     font-weight: 800;
     margin-bottom: 8px;
   }
@@ -478,10 +478,16 @@ video {
     font-size: 1vw;
     white-space: nowrap;
     text-transform: uppercase;
-    color: #000;
+    color: #ffffff;
     font-weight: 600;
     line-height: 20px;
     margin-bottom: 8px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  #f4 h4 img{
+    height: 2rem;
   }
   .cloths-head{
     height: 200px;
