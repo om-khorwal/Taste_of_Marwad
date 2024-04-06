@@ -2,9 +2,9 @@ var logo = document.getElementById('logo');
 logo.addEventListener("click" , ()=>{
     window.location.href = "index.html"
 })
-var topspices = document.getElementById("Breads");
+var topspices = document.getElementById("topspices");
 topspices.addEventListener("click" , ()=>{
-    window.location.href = "./Breads.html";
+    window.location.href = "./Top_spices.html";
 })
 
 gsap.to("#nav", {

@@ -35,6 +35,10 @@ var topspices = document.getElementById("topspices");
 topspices.addEventListener("click" , ()=>{
     window.location.href = "./Top_spices.html";
 })
+var topspices = document.getElementById("Breads");
+topspices.addEventListener("click" , ()=>{
+    window.location.href = "./Breads.html";
+})
 
 gsap.to("#nav", {
     backgroundColor:"#000",
