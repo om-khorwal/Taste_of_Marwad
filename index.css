@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: 'montserrat';
     color: aliceblue;
-
+    
 }
 
 html,
@@ -163,6 +163,9 @@ video {
     font-weight: 800;
     margin-bottom: 1%;
     margin-top: 1%;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 #page1 p {
@@ -250,8 +253,12 @@ video {
 }
 
 #about-us-in p {
-    font-size: 20px;
-    line-height: 26px;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 #card-container {
