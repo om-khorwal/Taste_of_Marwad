@@ -47,3 +47,8 @@ gsap.to("#main", {
         scrub:3
     }
 })
+
+gsap.from("#headline",{
+    opacity:0,
+    duration:5
+})
