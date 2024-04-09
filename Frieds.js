@@ -23,6 +23,7 @@ Contact.addEventListener("click" , ()=>{
     window.location.href = "./Contact.html";
 })
 
+
 gsap.to("#nav", {
     backgroundColor:"#000",
     duration:0.5,
