@@ -35,9 +35,13 @@ var topspices = document.getElementById("topspices");
 topspices.addEventListener("click" , ()=>{
     window.location.href = "./Top_spices.html";
 })
-var topspices = document.getElementById("Breads");
-topspices.addEventListener("click" , ()=>{
+var Breads = document.getElementById("Breads");
+Breads.addEventListener("click" , ()=>{
     window.location.href = "./Breads.html";
+})
+var Sweets = document.getElementById("Sweets");
+Sweets.addEventListener("click" , ()=>{
+    window.location.href = "./Sweets.html";
 })
 
 gsap.to("#nav", {

@@ -7,6 +7,10 @@ topspices.addEventListener("click" , ()=>{
     window.location.href = "./Breads.html";
 })
 
+var Sweets = document.getElementById("Sweets");
+Sweets.addEventListener("click" , ()=>{
+    window.location.href = "./Sweets.html";
+})
 gsap.to("#nav", {
     backgroundColor:"#000",
     duration:0.5,

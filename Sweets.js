@@ -1,3 +1,12 @@
+
+var Breads = document.getElementById("Breads");
+Breads.addEventListener("click" , ()=>{
+    window.location.href = "./Breads.html";
+})
+var Sweets = document.getElementById("Sweets");
+Sweets.addEventListener("click" , ()=>{
+    window.location.href = "./Sweets.html";
+})
 var logo = document.getElementById('logo');
 logo.addEventListener("click" , ()=>{
     window.location.href = "index.html"
@@ -5,10 +14,6 @@ logo.addEventListener("click" , ()=>{
 var topspices = document.getElementById("topspices");
 topspices.addEventListener("click" , ()=>{
     window.location.href = "./Top_spices.html";
-})
-var Sweets = document.getElementById("Sweets");
-Sweets.addEventListener("click" , ()=>{
-    window.location.href = "./Sweets.html";
 })
 
 gsap.to("#nav", {

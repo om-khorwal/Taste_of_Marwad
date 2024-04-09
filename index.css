@@ -12,7 +12,9 @@ body {
     width: 100%;
     height: 100%;
 }
-
+::-webkit-scrollbar {
+    display: none;
+  }
 .nav {
     height: 145px;
     width: 100%;
