@@ -47,3 +47,39 @@ gsap.to("#main", {
         scrub:3
     }
 })
+
+var tl = gsap.timeline()
+tl.from("#page1 h3 ,#headline span ,#page1 h4" ,{
+    y:200,
+    duration:1,
+    opacity:0,
+    stagger:0.3
+
+})
+tl.from("#page2 h2",{
+    y:100,
+    duration:1,
+    scrollTrigger:{
+        trigger:"#page2 h2",
+        scroller:"body",
+        // markers:false,
+        start:"top 95%",
+        end:"top 70%",
+        scrub:3
+    },
+})
+
+tl.from("#b1,#b2,#b3,#b4",{
+    y:100,
+    opacity:0,
+    duration:1,
+    stagger:0.3,
+    scrollTrigger:{
+        trigger:"#b1,#b2,#b3,#b4",
+        scroller:"body",
+        markers:true,
+        start:"top 50%",
+  
+
+    },
+})
