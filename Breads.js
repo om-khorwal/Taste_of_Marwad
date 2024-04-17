@@ -77,7 +77,7 @@ tl.from("#b1,#b2,#b3,#b4",{
     scrollTrigger:{
         trigger:"#b1,#b2,#b3,#b4",
         scroller:"body",
-        markers:true,
+        // markers:true,
         start:"top 50%",
   
 
