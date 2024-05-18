@@ -249,7 +249,7 @@ video {
 }
 
 #about-us-in h3 {
-    font-size: 50px;
+    font-size: 250px;
     font-weight: 900;
     margin-bottom: 40px;
 }
@@ -515,5 +515,4 @@ video {
     to {
         transform: translateX(-100%);
     }
-
 }
